@@ -1,15 +1,15 @@
 import { alphabetByIndex } from "../challenges/alphabet-by-index";
 
 describe("Alphabet by Index", () => {
-  it("should return the A letter", () => {
+  it("should return the first letter of the alphabet", () => {
     expect(alphabetByIndex(1)).toBe("a");
   });
 
-  it("should return the B letter", () => {
-    expect(alphabetByIndex(2)).toBe("b");
+  it("should return the first two letters of the alphabet", () => {
+    expect(alphabetByIndex(2)).toBe("ab");
   });
 
-  it("should return the Z letter", () => {
-    expect(alphabetByIndex(26)).toBe("z");
+  it("should return the alphabet", () => {
+    expect(alphabetByIndex(26)).toBe("abcdefghijklmnopqrstuvwxyz");
   });
 });
