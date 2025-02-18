@@ -3,6 +3,14 @@ type Product = {
   value: number;
 };
 
+/**
+ * Filter a list of products by a max value and a min value
+ * 
+ * @param products The list of products
+ * @param maxValue The max value
+ * @param minValue The min value
+ * @returns The list of products filtered by the max value and the min value
+ */
 export function filterListOfProducts(
   products: Product[],
   maxValue: number,

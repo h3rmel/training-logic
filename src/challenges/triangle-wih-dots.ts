@@ -1,3 +1,9 @@
+/**
+ * Create a triangle with dots
+ * 
+ * @param width The width of the triangle
+ * @returns The triangle composed of dots
+ */
 export function triangleWithDots(width: number) {
   const triangle: string[] = [];
 
