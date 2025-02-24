@@ -1,7 +1,7 @@
 /**
  * Check if there are duplicates in the array using a Set
-
-* @param array - The array to check
+ *
+ * @param array - The array to check
  * @returns true if there are duplicates, false otherwise
  */
 export function checkDuplicatesWithSet(array: number[]) {
@@ -12,7 +12,7 @@ export function checkDuplicatesWithSet(array: number[]) {
 
 /**
  * Check if there are duplicates in the array using one for loop
- * 
+ *
  * @param array - The array to check
  * @returns true if there are duplicates, false otherwise
  */
@@ -30,7 +30,7 @@ export function checkDuplicatesWithOneFor(array: number[]) {
 
 /**
  * Check if there are duplicates in the array using two for loops
- * 
+ *
  * @param array - The array to check
  * @returns true if there are duplicates, false otherwise
  */
