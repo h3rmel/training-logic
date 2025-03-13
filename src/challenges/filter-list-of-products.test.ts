@@ -1,4 +1,4 @@
-import { filterListOfProducts } from "../challenges/filter-list-of-products";
+import { filterListOfProducts } from "./filter-list-of-products";
 
 describe("Filter List of Products", () => {
   it("should return a list of products", () => {

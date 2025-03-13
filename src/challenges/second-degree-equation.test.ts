@@ -1,4 +1,4 @@
-import { secondDegreeEquation } from "../challenges/second-degree-equation";
+import { secondDegreeEquation } from "./second-degree-equation";
 
 describe("secondDegreeEquation", () => {
   it("should return one root when discriminant is zero", () => {

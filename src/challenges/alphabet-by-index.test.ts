@@ -1,4 +1,4 @@
-import { alphabetByIndex } from "../challenges/alphabet-by-index";
+import { alphabetByIndex } from "./alphabet-by-index";
 
 describe("Alphabet by Index", () => {
   it("should return the first letter of the alphabet", () => {

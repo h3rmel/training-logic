@@ -1,4 +1,4 @@
-import { sumOfMatrixes } from "../challenges/sum-of-matrixes";
+import { sumOfMatrixes } from "./sum-of-matrixes";
 
 describe("Sum of Matrixes", () => {
   it("should sum the matrixes", () => {

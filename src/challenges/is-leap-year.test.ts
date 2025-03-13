@@ -1,4 +1,4 @@
-import { isLeapYear } from "../challenges/is-leap-year";
+import { isLeapYear } from "./is-leap-year";
 
 describe("isLeapYear", () => {
   it("Test 2024 (is leap, should return true)", () => {

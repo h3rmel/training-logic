@@ -2,7 +2,7 @@
 export default {
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/tests/**/*.test.ts"],
+  testMatch: ["**/challenges/**/*.test.ts"],
   moduleFileExtensions: ["ts", "js"],
   transform: {
     "^.+\\.ts$": "ts-jest",

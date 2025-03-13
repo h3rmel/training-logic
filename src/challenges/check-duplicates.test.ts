@@ -2,7 +2,7 @@ import {
   checkDuplicatesWithOneFor,
   checkDuplicatesWithSet,
   checkDuplicatesWithTwoFors,
-} from "../challenges/check-duplicates";
+} from "./check-duplicates";
 
 describe("checkDuplicates", () => {
   it("checkDuplicatesWithSet - duplicates in the array", () => {

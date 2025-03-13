@@ -1,4 +1,4 @@
-import { superDigit } from "../challenges/super-digit";
+import { superDigit } from "./super-digit";
 
 describe("superDigit", () => {
   it("should return the super digit of a number", () => {
